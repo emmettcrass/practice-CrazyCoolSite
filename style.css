@@ -1,6 +1,6 @@
 
 body {
-  background: url("https://www.tellermate.com/us/wp-content/uploads/sites/8/2020/05/Cash-US-1024x512.jpg");
+  background: url("img/bkgd.jpg");
   text-decoration: none;
 }
 .buttons {
@@ -16,7 +16,7 @@ body {
 button {
   margin: 7px;
   border-radius: 10px;
-  color: red;
+  color: brown;
   font-family: sans-serif;
   animation-name: blinkyLight;
   animation-duration: 3s;
@@ -24,7 +24,7 @@ button {
   animation-timing-function: ease-in-out;
 }
 h1 {
-  color: red;
+  color: brown;
   font-family: sans-serif;
   animation-name: blinkyLight;
   animation-duration: 3s;
@@ -38,16 +38,16 @@ h1 {
 }
 
 a {
-  color: red;
+  color: brown;
   animation-name: blinkyLight;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 @keyframes blinkyLight {
-  0% {background-color: cyan;}
-  25% {background-color: green;}
-  50% {background-color: yellow;}
-  75% {background-color: blue;}
-  100% {background-color: cyan;}
+  0% {background-color: lightcyan;}
+  25% {background-color: palegreen;}
+  50% {background-color: whitesmoke;}
+  75% {background-color: lightpink;}
+  100% {background-color: lightcyan;}
 }
