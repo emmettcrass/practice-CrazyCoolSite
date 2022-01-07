@@ -1,0 +1,53 @@
+
+body {
+  background: url("https://www.tellermate.com/us/wp-content/uploads/sites/8/2020/05/Cash-US-1024x512.jpg");
+  text-decoration: none;
+}
+.buttons {
+  display: float;
+  justify-content: space-around;
+  margin: 0px 10px 30px 10px;
+}
+
+.title {
+  border-radius: 40px;
+}
+
+button {
+  margin: 7px;
+  border-radius: 10px;
+  color: red;
+  font-family: sans-serif;
+  animation-name: blinkyLight;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+h1 {
+  color: red;
+  font-family: sans-serif;
+  animation-name: blinkyLight;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  text-align: center;
+}
+
+.forward {
+  float: right;
+}
+
+a {
+  color: red;
+  animation-name: blinkyLight;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes blinkyLight {
+  0% {background-color: cyan;}
+  25% {background-color: green;}
+  50% {background-color: yellow;}
+  75% {background-color: blue;}
+  100% {background-color: cyan;}
+}
